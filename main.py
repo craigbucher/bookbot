@@ -7,7 +7,8 @@ def get_book_text(file):
 	return(file_contents)
 
 def main():
-	if len(sys.argv) == 1:
+	# I COULDN'T FIGURE OUT HOW TO DO THIS⬇️ 🤦‍♂️️
+	if len(sys.argv) == 1:  # so, no book path specified
 		print('Usage: python3 main.py <path_to_book>')
 		sys.exit(1)
 	else:

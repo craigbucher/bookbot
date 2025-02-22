@@ -27,9 +27,7 @@ def list_of_dicts(text):
 	list=[]
 	for key, value in chars.items():
 		if key.isalpha():
-			#item = {key:value}
 			list.append({key:value})
-			#list.sort()
-	list.sort(reverse=True, key=sort_on)
-	#print(list)	
+	# Provided in the lesson:
+	list.sort(reverse=True, key=sort_on)	
 	return list
